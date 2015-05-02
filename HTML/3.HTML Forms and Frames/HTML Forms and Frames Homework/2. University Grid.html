@@ -1,0 +1,202 @@
+﻿<!--HTML Form and Frames Homework - Problem 2 University Grid -->
+
+<!--Нещо не се справям с малкия падинг на клетките спрямо левята част на таблицата , 
+    при мен по подразбиране няма падинг и текста се залепва в ляво до таблицата , 
+    padding-left , padding какво ли не пробвах нещо не ми се получава , някой ако знае как да ми Feedback-не -->
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <style>
+        table {
+            width: 60%;
+            margin-left: 3%;
+            border-collapse: collapse;
+            font-size: 20px;
+            
+        }
+        table, tr, th, td {
+            border: 1px groove;
+            border:groove;
+        }
+        table tfoot td {
+            padding: 10px;
+        }
+        .header{
+            text-align:center;
+            font-weight:bold;
+        }
+        .total{
+            text-align:center;
+        }
+        
+        
+       
+    </style>
+    <title>University Grid</title>
+</head>
+<body>
+    <table border="1">
+        <thead class="header">
+            <!--Order -->
+            <tr>
+                <b>
+                <td rowspan="2">Order</td>
+                <td colspan="3">Personal info</td>
+                <td colspan="5">University Marks</td>
+                </b>
+            </tr>
+            <!--Order  -->
+            <tr>
+                <b>
+                <td>First Name</td>
+                <td>Last Name</td>
+                <td>Faculty Number</td>
+                <td>English</td>
+                <td>Math</td>
+                <td>Biology</td>
+                <td>Physics</td>
+                <td>Total</td>
+                </b>
+            </tr>
+        </thead>
+        <tfoot>
+            <!--Footer -->
+            <tr>
+                <td colspan="9">
+                    <input type="button" value="Previuos" /> 
+                    <a href="#" ><u>1</u></a>.
+                    <a href="#" ><u>2</u></a>.
+                    <a href="#" ><u>3</u></a>.
+                    <a href="#" ><u>4</u></a>,...
+                    <a href="#" ><u>10</u></a>
+                    <input type="button" value="Next"
+                </td>
+            </tr>
+        </tfoot>
+        <tbody class="tbody">
+            <!--1 -->
+            <tr>
+                <td> 1</td>
+                <td> Pesho</td>
+                <td> Yordanov</td>
+                <td> 123456</td>
+                <td> 2</td>
+                <td> 3</td>
+                <td> 4</td>
+                <td> 5</td>
+                <td class="total">3.50</td>
+            </tr>
+            <!--2 -->
+            <tr>
+                <td> 2</td>
+                <td> Pesho</td>
+                <td> Yordanov</td>
+                <td> 123456</td>
+                <td> 2</td>
+                <td> 3</td>
+                <td> 4</td>
+                <td> 5</td>
+                <td class="total">3.50</td>
+            </tr>
+            <!--3 -->
+            <tr>
+                <td> 3</td>
+                <td> Pesho</td>
+                <td> Yordanov</td>
+                <td> 123456</td>
+                <td> 2</td>
+                <td> 3</td>
+                <td> 4</td>
+                <td> 5</td>
+                <td class="total">3.50</td>
+            </tr>
+            <!--4 -->
+            <tr>
+                <td> 4</td>
+                <td> Pesho</td>
+                <td> Yordanov</td>
+                <td> 123456</td>
+                <td> 2</td>
+                <td> 3</td>
+                <td> 4</td>
+                <td> 5</td>
+                <td class="total">3.50</td>
+            </tr>
+            <!--5 -->
+            <tr>
+                <td> 5</td>
+                <td> Pesho</td>
+                <td> Yordanov</td>
+                <td> 123456</td>
+                <td> 2</td>
+                <td> 3</td>
+                <td> 4</td>
+                <td> 5</td>
+                <td class="total">3.50</td>
+            </tr>
+            <!--6 -->
+            <tr>
+                <td> 6</td>
+                <td> Pesho</td>
+                <td> Yordanov</td>
+                <td> 123456</td>
+                <td> 2</td>
+                <td> 3</td>
+                <td> 4</td>
+                <td> 5</td>
+                <td class="total">3.50</td>
+            </tr>
+            <!--7 -->
+            <tr>
+                <td> 7</td>
+                <td> Pesho</td>
+                <td> Yordanov</td>
+                <td> 123456</td>
+                <td> 2</td>
+                <td> 3</td>
+                <td> 4</td>
+                <td> 5</td>
+                <td class="total">3.50</td>
+            </tr>
+            <!--8 -->
+            <tr>
+                <td> 8</td>
+                <td> Pesho</td>
+                <td> Yordanov</td>
+                <td> 123456</td>
+                <td> 2</td>
+                <td> 3</td>
+                <td> 4</td>
+                <td> 5</td>
+                <td class="total">3.50</td>
+            </tr>
+            <!--9 -->
+            <tr>
+                <td> 9</td>
+                <td> Pesho</td>
+                <td> Yordanov</td>
+                <td> 123456</td>
+                <td> 2</td>
+                <td> 3</td>
+                <td> 4</td>
+                <td> 5</td>
+                <td class="total">3.50</td>
+            </tr>
+            <!--10 -->
+            <tr>
+                <td> 10</td>
+                <td> Pesho</td>
+                <td> Yordanov</td>
+                <td> 123456</td>
+                <td> 2</td>
+                <td> 3</td>
+                <td> 4</td>
+                <td> 5</td>
+                <td class="total">3.50</td>
+            </tr>
+            </tbody>
+        
+    </table>
+</body>
+</html>

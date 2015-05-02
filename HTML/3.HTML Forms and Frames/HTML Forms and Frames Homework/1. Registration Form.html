@@ -1,0 +1,107 @@
+﻿<!--HTML Forms and Frames Homework - Problem 1 Registration form -->
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <style>
+          .table {
+            margin-left: 3%;
+            border-collapse: collapse;
+        }
+        .footer {
+            text-align: center;
+            background-color: skyblue;
+        }
+    </style>
+    <meta charset="utf-8" />
+    <title>Registration Form</title>
+</head>
+<body>
+    <table class="table" border="1">
+        <!--Last Name -->
+        <tr>
+            <td>Last Name</td>
+            <td><input type="text" size="30" /></td>
+        </tr>
+        <!--First Name -->
+        <tr>
+            <td>First Name</td>
+            <td><input type="text" size="30" /></td>
+        </tr>
+        <!--Address -->
+        <tr>
+            <td>Address</td>
+            <td><textarea rows="4" cols="22"></textarea></td>
+        </tr>
+        <!--City -->
+        <tr>
+            <td>City</td>
+            <td>
+                <input type="text" size="16" /> State <input type="text" size="5" />
+            </td>
+        </tr>
+        <!--Zip Postal Code -->
+        <tr>
+            <td>Zip/Postal Code</td>
+            <td><input type="text"size="6" /></td>
+        </tr>
+        <!--Country -->
+        <tr>
+            <td>Country</td>
+            <td>
+                <select size="1"> 
+                    <option selected>Bulgaria</option>
+                    <option>England</option>
+                    <option>Germany</option>
+                </select>
+            </td>
+        </tr>
+        <!--Phone ( country code , aree code , number -->
+        <tr>
+            <td>Phone(country code, <br />
+                area code,number)
+            </td>
+            <td>(+<input type="text" size="4" />)<input type="text" size="4" /> <input type="text" size="8" /></td>
+        </tr>
+        <!--Email -->
+        <tr>
+            <td>E-mail</td>
+            <td><input type="email" size="30" /></td>
+        </tr>
+        <!--Birthday -->
+        <tr>
+            <td>Birth date</td>
+            <td><input type="text" placeholder="дд.мм.гггг г." /></td>
+        </tr>
+        <!--Gender -->
+        <tr>
+            <td>Gender</td>
+            <td>
+                <select>
+                    <option>Male</option>
+                    <option>Female</option>
+                </select>
+            </td>
+        </tr>
+        <!--Starting date -->
+        <tr>
+            <td>Starting date</td>
+            <td>
+                <input type="radio" name="season" value="Spring 2015" />Spring 2015 
+                <input type="radio" name="season" value="Summer 2015" />Summer 2015
+            </td>
+        </tr>
+        <!--Comment questions -->
+        <tr>
+            <td>Comments/Questions</td>
+            <td><textarea rows="6" cols="22"></textarea></td>
+        </tr>
+        <!--Submit and Reset -->
+        <tr class="footer">
+            <td colspan="2">
+                <input type="submit" value="Submit" />
+                <input type="reset" value="Clean This Form"/></td>
+        </tr>
+         
+    </table>
+</body>
+</html>

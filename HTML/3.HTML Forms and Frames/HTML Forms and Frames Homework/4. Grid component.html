@@ -1,0 +1,219 @@
+﻿<!--HTML Forms and Frames Homework - Problem 4 Grid Component -->
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <style>
+        table{
+            width:70%;
+            margin-left:2%;
+            border-collapse:collapse;
+            font-size:20px;
+        }
+        table thead tr td{
+            border: 1px groove;
+            border: groove;
+        }
+        table tfoot tr td{
+            border: 1px groove;
+            border: groove;
+        }
+        a {
+            text-decoration:none;
+            color:black;
+        }
+        .form td{
+            padding-left:1%;
+        }
+        #firstline{
+            padding: 1%;
+            background-color: rgb(231,233,235);
+        }
+        #labels{
+            background: -webkit-linear-gradient(rgb(241,241,243), rgb(219,221,224)); /* For Safari 5.1 to 6.0 */
+            background: -o-linear-gradient(rgb(241,241,243), rgb(219,221,224)); /* For Opera 11.1 to 12.0 */
+            background: -moz-linear-gradient(rgb(241,241,243), rgb(219,221,224)); /* For Firefox 3.6 to 15 */
+            background: linear-gradient(rgb(241,241,243), rgb(219,221,224)); /* Standard syntax */
+        }
+        #boxes td{
+            padding-left: 1%;
+            vertical-align: central;
+        }
+        .footer{
+            background: -webkit-linear-gradient(rgb(241,241,243), rgb(219,221,224)); /* For Safari 5.1 to 6.0 */
+            background: -o-linear-gradient(rgb(241,241,243), rgb(219,221,224)); /* For Opera 11.1 to 12.0 */
+            background: -moz-linear-gradient(rgb(241,241,243), rgb(219,221,224)); /* For Firefox 3.6 to 15 */
+            background: linear-gradient(rgb(241,241,243), rgb(219,221,224)); /* Standard syntax */
+        }
+        #boxes {
+            background-color: rgb(223,227,232);
+        }
+        .footer #total {
+            padding: 1%;
+            float: right;
+        }
+        .footer td #curruntpage{
+             padding: 3px;
+             border: 1px solid orange;
+        }
+
+
+       
+    </style>
+    <title>Grid component</title>
+</head>
+<body>
+    <table class="form" border="1">
+        <thead class="header">
+            <tr>
+                <td colspan="6" id="firstline">Drag a column header and drop it here to group by that column</td>
+            </tr>
+            <tr id="labels">
+                <td>ProductID</td>
+                <td>Product name</td>
+                <td>Unit price</td>
+                <td>Quantity per unit</td>
+                <td>Units in stock</td>
+                <td>Discontinued</td>
+            </tr>
+            <tr id="boxes">
+                <td><input type="text" name="id" size="3" /></td>
+                <td><input type="text" name="name" size="15" /></td>
+                <td>
+                    <input type="text" name="price" size="13" />
+                    <img src="filter.png" alt="filter" />
+                </td>
+                <td><input type="text" name="price" size="11" /></td>
+                <td>
+                    <input type="text" name="quantity" size="7" />
+                    <img src="filter.png" alt="filter"/>
+                </td>
+                <td>
+                    <input type="checkbox" name="checkb"/>
+                    <img src="filter.png" alt="filter"/>
+                </td>
+            </tr>
+        </thead>
+        <tfoot class="footer">
+            <tr >
+                <td id="links" colspan="2">
+                    <img src="first.png" alt="first" />
+                    <img src="prev.png" alt="preview" />
+                    <a id="curruntpage" href="#">1</a>
+                    <a href="#">2</a>
+                    <a href="#">3</a>
+                    <a href="#">4</a>
+                    <a href="#">5</a>
+                    <a href="#">6</a>
+                    <a href="#">7</a>
+                    <a href="#">8</a>
+                    <a href="#">9</a>
+                    <a href="#">10</a> ...
+                    <img src="next.png" alt="next" />
+                    <img src="last.png" alt="last" />
+               </td>
+                <td>
+                    Page size
+                    <select>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option selected="selected">10</option>
+                    </select>
+                </td>
+                <td colspan="3">
+                    <span id="total"> 335104 items in 33511 pages </span>
+                </td>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Chai</td>
+                <td>$18</td>
+                <td>10 boxes x 20 bags</td>
+                <td>39</td>
+                <td><input type="checkbox" /></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Chang</td>
+                <td>$19</td>
+                <td>24 - 12 oz bottles</td>
+                <td>17</td>
+                <td><input type="checkbox" /></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Aniseed Syrup</td>
+                <td>$10</td>
+                <td>12 - 550 ml bottles</td>
+                <td>13</td>
+                <td><input type="checkbox" /></td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Chef Anton's Cajun Seasoning</td>
+                <td>$22</td>
+                <td>38 - 6 oz jars</td>
+                <td>53</td>
+                <td><input type="checkbox" /></td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>hef Anton's Gumbo Mix</td>
+                <td>$21.35</td>
+                <td>36 boxes</td>
+                <td>0</td>
+                <td><input type="checkbox" checked="checked" /></td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Grandma's Boysenberry Spread</td>
+                <td>$25</td>
+                <td>12 - 8 oz jars</td>
+                <td>120</td>
+                <td><input type="checkbox" /></td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>Uncle Bob's Organic Dried Pears</td>
+                <td>$30</td>
+                <td>12 - 1 lb pkgs.</td>
+                <td>15</td>
+                <td><input type="checkbox" /></td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>Northwoods Cranberry Sauce</td>
+                <td>$40</td>
+                <td>12 - 12 oz jars</td>
+                <td>6</td>
+                <td><input type="checkbox" /></td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>Mishi Kobe Niku</td>
+                <td>$97</td>
+                <td>18 - 500 g pgks.</td>
+                <td>29</td>
+                <td><input type="checkbox" checked="checked" /></td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Ikura</td>
+                <td>$31</td>
+                <td>12 - 200 ml jars.</td>
+                <td>31</td>
+                <td><input type="checkbox" /></td>
+           </tr>
+        </tbody>
+    </table>
+</body>
+</html>

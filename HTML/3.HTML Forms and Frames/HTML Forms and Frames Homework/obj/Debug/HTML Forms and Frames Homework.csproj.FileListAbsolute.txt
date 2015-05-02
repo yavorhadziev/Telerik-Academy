@@ -1,0 +1,10 @@
+C:\Users\naTpuoT\Desktop\HTML Homework\HTML Forms and Frames\HTML Forms and Frames Homework\bin\HTML Forms and Frames Homework.dll
+C:\Users\naTpuoT\Desktop\HTML Homework\HTML Forms and Frames\HTML Forms and Frames Homework\bin\HTML Forms and Frames Homework.pdb
+C:\Users\naTpuoT\Desktop\HTML Homework\HTML Forms and Frames\HTML Forms and Frames Homework\obj\Debug\HTML Forms and Frames Homework.csprojResolveAssemblyReference.cache
+C:\Users\naTpuoT\Desktop\HTML Homework\HTML Forms and Frames\HTML Forms and Frames Homework\obj\Debug\HTML Forms and Frames Homework.dll
+C:\Users\naTpuoT\Desktop\HTML Homework\HTML Forms and Frames\HTML Forms and Frames Homework\obj\Debug\HTML Forms and Frames Homework.pdb
+C:\Users\naTpuoT\Desktop\HTML Homework\3.HTML Forms and Frames\HTML Forms and Frames Homework\bin\HTML Forms and Frames Homework.dll
+C:\Users\naTpuoT\Desktop\HTML Homework\3.HTML Forms and Frames\HTML Forms and Frames Homework\bin\HTML Forms and Frames Homework.pdb
+C:\Users\naTpuoT\Desktop\HTML Homework\3.HTML Forms and Frames\HTML Forms and Frames Homework\obj\Debug\HTML Forms and Frames Homework.csprojResolveAssemblyReference.cache
+C:\Users\naTpuoT\Desktop\HTML Homework\3.HTML Forms and Frames\HTML Forms and Frames Homework\obj\Debug\HTML Forms and Frames Homework.dll
+C:\Users\naTpuoT\Desktop\HTML Homework\3.HTML Forms and Frames\HTML Forms and Frames Homework\obj\Debug\HTML Forms and Frames Homework.pdb

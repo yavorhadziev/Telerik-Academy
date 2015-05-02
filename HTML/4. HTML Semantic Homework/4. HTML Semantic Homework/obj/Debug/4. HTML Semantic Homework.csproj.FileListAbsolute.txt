@@ -1,0 +1,5 @@
+C:\Users\naTpuoT\Desktop\HTML Homework\4. HTML Semantic Homework\4. HTML Semantic Homework\bin\_4.HTML_Semantic_Homework.dll
+C:\Users\naTpuoT\Desktop\HTML Homework\4. HTML Semantic Homework\4. HTML Semantic Homework\bin\_4.HTML_Semantic_Homework.pdb
+C:\Users\naTpuoT\Desktop\HTML Homework\4. HTML Semantic Homework\4. HTML Semantic Homework\obj\Debug\4. HTML Semantic Homework.csprojResolveAssemblyReference.cache
+C:\Users\naTpuoT\Desktop\HTML Homework\4. HTML Semantic Homework\4. HTML Semantic Homework\obj\Debug\_4.HTML_Semantic_Homework.dll
+C:\Users\naTpuoT\Desktop\HTML Homework\4. HTML Semantic Homework\4. HTML Semantic Homework\obj\Debug\_4.HTML_Semantic_Homework.pdb

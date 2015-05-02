@@ -1,0 +1,5 @@
+C:\Users\naTpuoT\Desktop\HTML Homework\HTML Fundamentals\HTML Fundamentals Homework\bin\HTML Fundamentals Homework.dll
+C:\Users\naTpuoT\Desktop\HTML Homework\HTML Fundamentals\HTML Fundamentals Homework\bin\HTML Fundamentals Homework.pdb
+C:\Users\naTpuoT\Desktop\HTML Homework\HTML Fundamentals\HTML Fundamentals Homework\obj\Debug\HTML Fundamentals Homework.csprojResolveAssemblyReference.cache
+C:\Users\naTpuoT\Desktop\HTML Homework\HTML Fundamentals\HTML Fundamentals Homework\obj\Debug\HTML Fundamentals Homework.dll
+C:\Users\naTpuoT\Desktop\HTML Homework\HTML Fundamentals\HTML Fundamentals Homework\obj\Debug\HTML Fundamentals Homework.pdb
